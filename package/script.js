@@ -8,7 +8,7 @@ seeMoreBtn.addEventListener("click", () => {
     additionalContent.style.display === "none" ||
     additionalContent.style.display === ""
   ) {
-    additionalContent.style.display = "inline";
+    additionalContent.style.display = "Inline";
     seeMoreBtn.textContent = "See Less";
   } else {
     additionalContent.style.display = "none";

@@ -7,7 +7,7 @@ hamBurgerIcon.addEventListener("click", (e) => {
     hamBurgerMenu.classList.toggle("active");
 });
 window.addEventListener("resize", () => {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 599) {
         hamBurgerMenu.classList.remove("active");
     }
 });
